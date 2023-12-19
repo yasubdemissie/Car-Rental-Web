@@ -1,0 +1,13 @@
+font-family: 'Exo 2', sans-serif;
+font-family: 'Hedvig Letters Sans', sans-serif;
+font-family: 'Merriweather', serif;
+font-family: 'Mina', sans-serif;
+font-family: 'Nova Square', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Playfair Display', serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto Slab', serif;
+font-family: 'Whisper', cursive;
+font-family: 'cinzel', sans-serif;
+font-family: 'rubik doodle shadow', cursive;
+font-family: 'rubik line', cursive;

@@ -1,0 +1,87 @@
+body {
+    text-align: center;
+    color: aliceblue;
+    background-image: linear-gradient(to bottom right, rgba(200, 200, 200, 0.39) , rgba(1, 1, 20, 0.911)), url(image/car2.jpg);
+}
+div {
+    position: relative;
+    width: 30%;
+    margin: auto;
+    box-shadow: ;
+    background-image: linear-gradient( to bottom right,  rgba(9, 9, 51, 0.848), rgba(40, 44, 47, 0.919)), url(image/car4.jfif);
+    /* background-color: rgb(9, 9, 51); */
+    font-family: 'Merriweather', serif;
+    box-shadow: 1px 10px 10px 5px rgba(0, 0, 0, 0.8);
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 1.8rem;
+    color: rgb(61, 145, 170);
+}
+h1 {
+    color: white;
+    font-family: 'Mina', sans-serif;
+    font-weight: bolder;
+    font-size: 3rem;
+}
+form {
+    position: relative;
+    display: grid;
+    padding: 2rem;
+}
+input {
+    margin: 0.5rem 1.5rem;
+    padding: 0.4rem;
+    height: 20px;
+    border-radius: 0.3rem;
+    border-style: none;
+}
+label {
+    text-align: left;
+    padding-bottom: 3px;
+}
+
+/* BUTTONS */
+
+button, .btn{
+    cursor: pointer;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    margin-top: 1rem;
+    border-style: none;
+    color: whitesmoke;
+}
+button, .login_btn {
+    background-color: rgba(23, 183, 223, 0.5);
+    padding: 0.3rem 2.4rem;
+    border-radius: 0.3rem;
+}
+.login_btns {
+    display: flex;
+    justify-content: space-between;
+}
+.forget_btn {
+    background: none;
+    color: rgb(154, 157, 159);
+}
+.arrow {
+    margin: auto;
+    color: white !important;
+    border-radius: 100%;
+    border-style: none;
+    width: fit-content;
+    background-color: rgba(0, 0, 0, 0);
+}
+.create_btn {
+    padding: 0.5rem 0.2rem;
+    font-size: 1rem;
+}
+/* FORM */
+.login_form {
+    z-index: 1;
+    /* height: 40rem; */
+}
+.signup_form {
+    /* border-radius: 6rem 6rem 0 0; */
+    z-index: 2;
+}
